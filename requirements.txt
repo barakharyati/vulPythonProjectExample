@@ -1,0 +1,4 @@
+# requirements.txt
+flask==2.0.1  # Older version may have vulnerabilities
+pyyaml==5.3.1  # Contains unsafe_load vulnerability
+requests==2.20.0  # Known to have vulnerabilities in older versions
